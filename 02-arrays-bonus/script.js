@@ -56,3 +56,12 @@ for (let i = 0; i < teachers.length; i++) {
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 const teachersString = null;
+//const teachersString1 = teachers.join(",");
+//console.log(teachersString1);
+
+for (let i = 0; i < teachers.length; i++) {
+  console.log(teachers[i]);
+  let newString = ``;
+  newString.push(teachers[i]);
+}
+console.log(teachersString);
