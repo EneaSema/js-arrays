@@ -25,6 +25,16 @@ console.log(teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
+//Soluzione corretta
+teachers.push("Vanessa");
+console.log(teachers);
+
+//Soluzione sbagliata perchè faccio una concatenazione di testo e non di elementi
+let newTeacher = "Vanessa";
+console.log(newTeacher);
+let newTeachers = teachers + newTeacher;
+console.log(newTeachers);
+
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
